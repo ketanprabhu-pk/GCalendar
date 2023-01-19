@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Calendar Events</title>
+	</head>
+
+	<body>
+		<h1>Calendar Events</h1>
+		<ul>
+			<% for(let i=0; i < events.length; i++) { %>
+				<li>
+					<%= events[i].summary %>
+				</li>
+				<% } %>
+		</ul>
+	</body>
+
+</html>

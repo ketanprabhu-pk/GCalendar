@@ -1,0 +1,29 @@
+{
+  "name": "gcalendar",
+  "version": "1.0.0",
+  "description": "event callender",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "pk",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^8.7.0",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.20"
+  }
+}
